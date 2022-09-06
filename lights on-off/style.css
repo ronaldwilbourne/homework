@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:black;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.container h1{
+    font-size: 2rem;
+    color: white;
+}
+.container .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.container .wrapper .on-btn, .container .wrapper .off-btn{
+    padding: 0.4rem 1rem;
+    border: 0.10rem solid white;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -8rem;
+    transition: all 1.5s ease-out;
+    cursor: pointer;
+}
+.container .wrapper .on-btn:hover, .container .wrapper .off-btn:hover{
+    background-color: black;
+    border: 0.10rem solid black;
+} 
+.container .wrapper img{
+    width: 10rem;
+    margin: 0rem 1.5rem;
+}
