@@ -39,6 +39,7 @@ body, html{
     margin-bottom: -8rem;
     transition: all 1.5s ease-out;
     cursor: pointer;
+    
 }
 .container .wrapper .on-btn:hover, .container .wrapper .off-btn:hover{
     background-color: black;
