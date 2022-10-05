@@ -19,14 +19,14 @@ body, html{
     font-size: 2rem;
     color: white;
 }
-.container .wrapper{
+.container .whoppy{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     margin-top: 1rem;
 }
-.container .wrapper .on-btn, .container .wrapper .off-btn{
+.container .whoppy .on-btn, .container .whoppy .off-btn{
     padding: 0.4rem 1rem;
     border: 0.10rem solid white;
     color: white;
@@ -41,11 +41,11 @@ body, html{
     cursor: pointer;
     
 }
-.container .wrapper .on-btn:hover, .container .wrapper .off-btn:hover{
+.container .whoppy .on-btn:hover, .container .whoppy .off-btn:hover{
     background-color: black;
     border: 0.10rem solid black;
 } 
-.container .wrapper img{
+.container .whoppy img{
     width: 10rem;
     margin: 0rem 1.5rem;
 }
