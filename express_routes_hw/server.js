@@ -37,14 +37,7 @@ const fruits = [
     }
 ];
 
-//assumed its a root route so setting it up using ('/') 
-//pass it 2 arguments one is path and rhe second is ewuth the homies req and res
-//
-app.get('/fruits', (req,res)=> {
-    res.send(fruits[req.params.indexOfFruitsArray])
 
-})
-//app.listen method will spin up our server it might be 8800 and then pass it a call 
 //back fuction becaecus it takes alot of time good for dev to know vertything is working finr 
 //for https request from clients 
 app.listen(port, ()=>{
